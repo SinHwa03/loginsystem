@@ -48,9 +48,7 @@ data_sets.push(d1)
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
-
 d2.set_content("테스트케이스를 작성합니다.")
-
 d2.set_content("단위테스트를 작성합니다.")
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
@@ -59,9 +57,6 @@ data_sets.push(d2)
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
-d3.set_img(1,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1Le-gaKI875jLSVaPUkFPLNr6d3fJwWIl/view?usp=drive_link",imglog:"회원가입페이지",sourceurl:""})//이미지타이틀
-d3.set_img(1,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1_omMaczmbzj1Nt0gxCbnPsTnQQ-QptUV/view?usp=drive_link",imglog:"회원가입 구현1",sourceurl:""})//이미지타이틀
-d3.set_img(1,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1xpOK_p21ZUb7Do_AUIC9gaSqcC_fR4OK/view?usp=drive_link",imglog:"회원가입 구현2",sourceurl:""})//이미지타이틀
 d3.set_content("회원로그인구현")
 d3.set_content("회원리스트연동")
 d3.set_content("테스트케이스 작성")

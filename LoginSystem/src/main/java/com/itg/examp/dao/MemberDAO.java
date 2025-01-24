@@ -13,3 +13,8 @@ public interface MemberDAO {
 	public MemberDTO signinMemeber(Map<String, String> data);
 	public List<MemberDTO> memberList();
 }
+
+
+
+
+
