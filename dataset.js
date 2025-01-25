@@ -49,19 +49,21 @@ let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
 d2.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1qfGcNouQ5508-TLtcoynNcypJnCQnQjk/view?usp=drive_link",imglog:"로그인,로그아웃 함수 분리",sourceurl:""})//이미지타이틀
-d2.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1WbKbrdrupwrokYqnsQz-B7851OaiXW4F/view?usp=drive_link",imglog:"작성된 공통모듈",sourceurl:""})//이미지타이틀
-d2.set_img(0,{imgtitle:"공통모듈 테스트 작성",imgurl:"https://drive.google.com/file/d/1uQbFw4iveprEd-lkxwePkbyLWewB7u88/view?usp=drive_link",imglog:"테스트페이지 작성",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1WbKbrdrupwrokYqnsQz-B7851OaiXW4F/view?usp=drive_link",imglog:"작성된 공통모듈",sourceurl:"LoginSystem/src/main/resources/static/common.js"})//이미지타이틀
+d2.set_img(0,{imgtitle:"공통모듈 테스트 작성",imgurl:"https://drive.google.com/file/d/1uQbFw4iveprEd-lkxwePkbyLWewB7u88/view?usp=drive_link",imglog:"테스트페이지 작성",sourceurl:"LoginSystem/src/main/resources/static/newpage.html"})//이미지타이틀
 d2.set_img(0,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1JZThtiBQIcEaT78fO_7KDqsE1QIInFPG/view?usp=drive_link",imglog:"테스트페이지",sourceurl:""})//이미지타이틀
-d2.set_img(2,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"가입한 회원 아이디와 비밀번호 입력",sourceurl:""})//이미지타이틀
-d2.set_img(2,{imgtitle:"로그인/로그아웃",imgurl:"https://drive.google.com/file/d/1lZEcOqUC8Rjj6n8bC_iCSkfzSlHOxK9T/view?usp=drive_link",imglog:"로그인과 로그아웃 테스트 성공",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"가입한 회원 아이디와 비밀번호 입력",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"로그인/로그아웃",imgurl:"https://drive.google.com/file/d/1lZEcOqUC8Rjj6n8bC_iCSkfzSlHOxK9T/view?usp=drive_link",imglog:"로그인과 로그아웃 테스트 성공",sourceurl:""})//이미지타이틀
 
 d2.set_content("테스트케이스를 작성합니다.")
-d2.set_img(1,{imgtitle:"테스트케이스 진행",imgurl:"https://drive.google.com/file/d/1tM8LGD_omFpYqNCyi15MhTToRCPuvDmm/view?usp=drive_link",imglog:"테스트케이스 진행",sourceurl:""})//이미지타이틀
+d2.set_img(1,{imgtitle:"테스트케이스",imgurl:"https://drive.google.com/file/d/1X9CxouCaly8LQ9NBbjTnF54qrPhUiaY4/view?usp=drive_link",imglog:"작성된 테스트케이스",sourceurl:"https://docs.google.com/document/d/11mcFjMZKxZ92EBxDyKrgy6Z5S0NnEx89cjUNc83zjnU/edit?usp=drive_link"})//이미지타이틀
 
 d2.set_content("단위테스트를 작성합니다.")
-d2.set_img(2,{imgtitle:"단위테스트",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d2.set_img(2,{imgtitle:"단위테스트",imgurl:"https://drive.google.com/file/d/1tM8LGD_omFpYqNCyi15MhTToRCPuvDmm/view?usp=drive_link",imglog:"",sourceurl:"LoginSystem/src/test/java/com/itg/examp/test/MemberServiceTests.java"})//이미지타이틀
 d2.set_img(2,{imgtitle:"단위테스트 결과",imgurl:"https://drive.google.com/file/d/1jRF3wGfKS_TfoGjz9aFRvHRmr8cO0WWk/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
 
+d2.set_content("테스트결과 보고서")
+d2.set_img(3,{imgtitle:"",imgurl:"",imglog:"",sourceurl:""})//이미지타이틀
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
@@ -72,26 +74,26 @@ d3.set_content("회원가입구현")//서브타이틀
 d3.set_img(0,{imgtitle:"메인화면",imgurl:"https://drive.google.com/file/d/1SB34bbM0QuCRBo-_3iAM1Io_4L-N_t13/view?usp=drive_link",imglog:"메인페이지에서 회원가입 버튼 구현",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입페이지",imgurl:"https://drive.google.com/file/d/1Le-gaKI875jLSVaPUkFPLNr6d3fJwWIl/view?usp=drive_link",imglog:"회원가입을 위한 회원정보 입력",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입 성공",imgurl:"https://drive.google.com/file/d/15C4yxuZK_ivt2jPbz9_7jqHggZ6b615N/view?usp=drive_link",imglog:"조건 만족 시 회원가입 성공창",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"연동된 컨트롤러 구현",imgurl:"https://drive.google.com/file/d/1KuRZXiL3p_2zeVi0kuyfCckhl2n2vm_C/view?usp=drive_link",imglog:"아이디: 4글자이상,비밀번호: 6글자이상으로 컨트롤러 구현",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"회원가입 조건",imgurl:"https://drive.google.com/file/d/1aK6gzl_RHbh4nYGOPVwHEbPopHSv-uvS/view?usp=drive_link",imglog:"회원가입시 조건항목 및 순서",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"서비스로직",imgurl:"https://drive.google.com/file/d/1eyptoWH6XAV76dHyieYkaUAh7OgycZMC/view?usp=drive_link",imglog:"회원가입에 성공한 아이디,비밀번호,이름,나이,주소 데이터베이스 저장",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"연동된 컨트롤러 구현",imgurl:"https://drive.google.com/file/d/1KuRZXiL3p_2zeVi0kuyfCckhl2n2vm_C/view?usp=drive_link",imglog:"아이디: 4글자이상,비밀번호: 6글자이상으로 컨트롤러 구현",sourceurl:"LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 조건",imgurl:"https://drive.google.com/file/d/1aK6gzl_RHbh4nYGOPVwHEbPopHSv-uvS/view?usp=drive_link",imglog:"회원가입시 조건항목 및 순서",sourceurl:"LoginSystem/src/main/java/com/itg/examp/dto/MemberDTO.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"서비스로직",imgurl:"https://drive.google.com/file/d/1eyptoWH6XAV76dHyieYkaUAh7OgycZMC/view?usp=drive_link",imglog:"회원가입에 성공한 아이디,비밀번호,이름,나이,주소 데이터베이스 저장",sourceurl:"LoginSystem/src/main/java/com/itg/examp/MemberService.java"})//이미지타이틀
 d3.set_img(0,{imgtitle:"가입된 회원정보 데이터베이스 저장",imgurl:"https://drive.google.com/file/d/1v6H5IDsoLvo-KVsHJx1kf_g9owPWKa4_/view?usp=drive_link",imglog:"서비스로직에서 유효성 점검",sourceurl:""})//이미지타이틀
 
 d3.set_content("회원로그인구현")//서브타이틀
 d3.set_img(1,{imgtitle:"회원로그인 구현",imgurl:"https://drive.google.com/file/d/1LJbuAhlg_GAO9-wBrDVUlOclC9n_aaEJ/view?usp=drive_link",imglog:"가입한 로그인 정보 입력",sourceurl:""})//이미지타이틀
 d3.set_img(1,{imgtitle:"로그인 성공",imgurl:"https://drive.google.com/file/d/1erLHX1AclRc3g8mc0mXXTGaSySPZlTim/view?usp=drive_link",imglog:"데이터베이스에 저장된 회원 아이디,비밀번호로 로그인 성공",sourceurl:""})//이미지타이틀
 d3.set_img(1,{imgtitle:"로그인 실패",imgurl:"https://drive.google.com/file/d/1-ohMvCTjRxgzaG-OvDQJlxTvHf1RyQAR/view?usp=drive_link",imglog:"데이터베이스에 저장된 회원 아이디,비밀번호가 틀릴 시 로그인 실패",sourceurl:""})//이미지타이틀
-d3.set_img(1,{imgtitle:"로그인 시스템",imgurl:"https://drive.google.com/file/d/1ZybbMIuk65c72rF2F4lhp7iiTi-nhwix/view?usp=drive_link",imglog:"로그인을 위한 컨트롤러 구현",sourceurl:""})//이미지타이틀
+d3.set_img(1,{imgtitle:"로그인 시스템",imgurl:"https://drive.google.com/file/d/1ZybbMIuk65c72rF2F4lhp7iiTi-nhwix/view?usp=drive_link",imglog:"로그인을 위한 컨트롤러 구현",sourceurl:"LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
 
 d3.set_content("회원로그아웃구현")//서브타이틀
 d3.set_img(2,{imgtitle:"로그아웃",imgurl:"https://drive.google.com/file/d/1fTFBEfaA6zt-bUvGCI84_A01gEjjmhGo/view?usp=drive_link",imglog:"로그아웃 버튼 구현",sourceurl:""})//이미지타이틀
-d3.set_img(2,{imgtitle:"로그아웃 요청",imgurl:"https://drive.google.com/file/d/1aPlJG98Qq2MoowxShM2BcB70Af8JyhCW/view?usp=drive_link",imglog:"로그아웃 버튼 클릭시 로그아웃 처리",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그아웃 요청",imgurl:"https://drive.google.com/file/d/1aPlJG98Qq2MoowxShM2BcB70Af8JyhCW/view?usp=drive_link",imglog:"로그아웃 버튼 클릭시 로그아웃 처리",sourceurl:"LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
 d3.set_img(2,{imgtitle:"로그인 세션 만료",imgurl:"https://drive.google.com/file/d/1VuAyF3cIK6Ac1tCu7zoGYIaSd_q4ersH/view?usp=drive_link",imglog:"로그아웃 완료시 문구출력",sourceurl:""})//이미지타이틀
 
 d3.set_content("회원리스트연동")//서브타이틀
 d3.set_img(3,{imgtitle:"회원리스트",imgurl:"https://drive.google.com/file/d/1Sh8Y0MoggV59J1LyugGAL81ogEbgrip2/view?usp=drive_link",imglog:"회원리스트보기 버튼 구현",sourceurl:""})//이미지타이틀
-d3.set_img(3,{imgtitle:"회원리스트 요청",imgurl:"https://drive.google.com/file/d/1iO4GOqxK_GOO44TQ8E_IlTFUrZdekhOZ/view?usp=drive_link",imglog:"회원리스트보기 버튼 구현",sourceurl:""})//이미지타이틀
-d3.set_img(3,{imgtitle:"회원리스트 출력",imgurl:"https://drive.google.com/file/d/1nB9Wtp4rTFhpSpJ05qP1zq6j4DEXxzjZ/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d3.set_img(3,{imgtitle:"회원리스트 요청",imgurl:"https://drive.google.com/file/d/1iO4GOqxK_GOO44TQ8E_IlTFUrZdekhOZ/view?usp=drive_link",imglog:"",sourceurl:"LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(3,{imgtitle:"회원리스트 출력",imgurl:"https://drive.google.com/file/d/1nB9Wtp4rTFhpSpJ05qP1zq6j4DEXxzjZ/view?usp=drive_link",imglog:"",sourceurl:"LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 출력 구현",imgurl:"https://drive.google.com/file/d/1r3AIX0iPMZPJM5mFADHoT39qlipJ9_pW/view?usp=drive_link",imglog:"가입한 회원 정보를 기반으로 회원리스트 데이터 불러오기",sourceurl:""})//이미지타이틀
 
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
@@ -100,8 +102,8 @@ data_sets.push(d3)
 // menu4 =============================================================
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
 d4.set_content("배치스케줄구현")//서브타이틀
-d4.set_img(0,{imgtitle:"배치스케줄 구성",imgurl:"https://drive.google.com/file/d/1Sh8Y0MoggV59J1LyugGAL81ogEbgrip2/view?usp=drive_link",imglog:"배치스케줄 구성 위한 JOB 구현 ",sourceurl:""})//이미지타이틀
-d4.set_img(0,{imgtitle:"배치스케줄 구성2",imgurl:"https://drive.google.com/file/d/115WTE6wAsSpovqFMFbkye9pA8KmJ5Ici/view?usp=drive_link",imglog:"배치스케줄이 적상적으로 작동하며 5분마다 주기적으로 실행",sourceurl:""})//이미지타이틀
+d4.set_img(0,{imgtitle:"배치스케줄 구성",imgurl:"https://drive.google.com/file/d/1Sh8Y0MoggV59J1LyugGAL81ogEbgrip2/view?usp=drive_link",imglog:"배치스케줄 구성 위한 JOB 구현 ",sourceurl:"LoginSystem/src/main/java/com/itg/examp/job/BatchConfiguration.java"})//이미지타이틀
+d4.set_img(0,{imgtitle:"배치스케줄 구성2",imgurl:"https://drive.google.com/file/d/115WTE6wAsSpovqFMFbkye9pA8KmJ5Ici/view?usp=drive_link",imglog:"배치스케줄이 적상적으로 작동하며 5분마다 주기적으로 실행",sourceurl:"LoginSystem/src/main/java/com/itg/examp/job/BatchSchedule.java"})//이미지타이틀
 d4.set_content("배치프로그램테스트 구현")//서브타이틀
 d4.set_img(0,{imgtitle:"배치프로그램 테스트",imgurl:"https://drive.google.com/file/d/1RSyuWNPfVFMi1jQ61Cqi19w2Qg2SUf2Q/view?usp=drive_link",imglog:"배치스케줄 정상 작동 확인",sourceurl:""})//이미지타이틀
 
