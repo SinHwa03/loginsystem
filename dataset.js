@@ -59,10 +59,13 @@ data_sets.push(d2)
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
-d3.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1Le-gaKI875jLSVaPUkFPLNr6d3fJwWIl/view?usp=drive_link",imglog:"회원가입페이지",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1_omMaczmbzj1Nt0gxCbnPsTnQQ-QptUV/view?usp=drive_link",imglog:"회원가입 구현1",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1xpOK_p21ZUb7Do_AUIC9gaSqcC_fR4OK/view?usp=drive_link",imglog:"회원가입 구현2",sourceurl:""})//이미지타이틀
-
+d3.set_img(0,{imgtitle:"메인화면",imgurl:"https://drive.google.com/file/d/1fO4slN7t-z_FR4oTHYPkOJzfn4EJgH2a/view?usp=drive_link",imglog:"메인페이지에서 회원가입 버튼 구현",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입페이지",imgurl:"https://drive.google.com/file/d/1Le-gaKI875jLSVaPUkFPLNr6d3fJwWIl/view?usp=drive_link",imglog:"회원가입을 위한 회원정보 입력",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 성공",imgurl:"https://drive.google.com/file/d/15C4yxuZK_ivt2jPbz9_7jqHggZ6b615N/view?usp=drive_link",imglog:"조건 만족 시 회원가입 성공창",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"연동된 컨트롤러 구현",imgurl:"https://drive.google.com/file/d/1KuRZXiL3p_2zeVi0kuyfCckhl2n2vm_C/view?usp=drive_link",imglog:"아이디: 4글자이상,비밀번호: 6글자이상으로 컨트롤러 구현",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 조건",imgurl:"https://drive.google.com/file/d/1aK6gzl_RHbh4nYGOPVwHEbPopHSv-uvS/view?usp=drive_link",imglog:"회원가입 시 조건항목 및 순서",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"서비스로직",imgurl:"https://drive.google.com/file/d/1eyptoWH6XAV76dHyieYkaUAh7OgycZMC/view?usp=drive_link",imglog:"회원가입에 성공한 아이디,비밀번호,이름,나이,주소 데이터베이스 저장 ",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"가입된 회원정보 데이터베이스 저장",imgurl:"https://drive.google.com/file/d/1v6H5IDsoLvo-KVsHJx1kf_g9owPWKa4_/view?usp=drive_link",imglog:"서비스로직에서 유효성 점검",sourceurl:""})//이미지타이틀
 
 d3.set_content("회원로그인구현")
 d3.set_img(1,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1Le-gaKI875jLSVaPUkFPLNr6d3fJwWIl/view?usp=drive_link",imglog:"회원가입페이지",sourceurl:""})//이미지타이틀
