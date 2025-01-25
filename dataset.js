@@ -48,19 +48,19 @@ data_sets.push(d1)
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1qfGcNouQ5508-TLtcoynNcypJnCQnQjk/view?usp=drive_link",imglog:"로그인,로그아웃 함수 분리",sourceurl:""})//이미지타이틀
-d1.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1WbKbrdrupwrokYqnsQz-B7851OaiXW4F/view?usp=drive_link",imglog:"작성된 공통모듈",sourceurl:""})//이미지타이틀
-d1.set_img(0,{imgtitle:"공통모듈 테스트 작성",imgurl:"https://drive.google.com/file/d/1uQbFw4iveprEd-lkxwePkbyLWewB7u88/view?usp=drive_link",imglog:"테스트페이지 작성",sourceurl:""})//이미지타이틀
-d1.set_img(0,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1JZThtiBQIcEaT78fO_7KDqsE1QIInFPG/view?usp=drive_link",imglog:"테스트페이지",sourceurl:""})//이미지타이틀
-d1.set_img(2,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"가입한 회원 아이디와 비밀번호 입력",sourceurl:""})//이미지타이틀
-d1.set_img(2,{imgtitle:"로그인/로그아웃",imgurl:"https://drive.google.com/file/d/1lZEcOqUC8Rjj6n8bC_iCSkfzSlHOxK9T/view?usp=drive_link",imglog:"로그인과 로그아웃 테스트 성공",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1qfGcNouQ5508-TLtcoynNcypJnCQnQjk/view?usp=drive_link",imglog:"로그인,로그아웃 함수 분리",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1WbKbrdrupwrokYqnsQz-B7851OaiXW4F/view?usp=drive_link",imglog:"작성된 공통모듈",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"공통모듈 테스트 작성",imgurl:"https://drive.google.com/file/d/1uQbFw4iveprEd-lkxwePkbyLWewB7u88/view?usp=drive_link",imglog:"테스트페이지 작성",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1JZThtiBQIcEaT78fO_7KDqsE1QIInFPG/view?usp=drive_link",imglog:"테스트페이지",sourceurl:""})//이미지타이틀
+d2.set_img(2,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"가입한 회원 아이디와 비밀번호 입력",sourceurl:""})//이미지타이틀
+d2.set_img(2,{imgtitle:"로그인/로그아웃",imgurl:"https://drive.google.com/file/d/1lZEcOqUC8Rjj6n8bC_iCSkfzSlHOxK9T/view?usp=drive_link",imglog:"로그인과 로그아웃 테스트 성공",sourceurl:""})//이미지타이틀
 
 d2.set_content("테스트케이스를 작성합니다.")
-d1.set_img(1,{imgtitle:"테스트케이스 진행",imgurl:"https://drive.google.com/file/d/1tM8LGD_omFpYqNCyi15MhTToRCPuvDmm/view?usp=drive_link",imglog:"테스트케이스 진행",sourceurl:""})//이미지타이틀
+d2.set_img(1,{imgtitle:"테스트케이스 진행",imgurl:"https://drive.google.com/file/d/1tM8LGD_omFpYqNCyi15MhTToRCPuvDmm/view?usp=drive_link",imglog:"테스트케이스 진행",sourceurl:""})//이미지타이틀
 
 d2.set_content("단위테스트를 작성합니다.")
-d1.set_img(2,{imgtitle:"단위테스트",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
-d1.set_img(2,{imgtitle:"단위테스트 결과",imgurl:"https://drive.google.com/file/d/1jRF3wGfKS_TfoGjz9aFRvHRmr8cO0WWk/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d2.set_img(2,{imgtitle:"단위테스트",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d2.set_img(2,{imgtitle:"단위테스트 결과",imgurl:"https://drive.google.com/file/d/1jRF3wGfKS_TfoGjz9aFRvHRmr8cO0WWk/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
 
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
@@ -100,10 +100,10 @@ data_sets.push(d3)
 // menu4 =============================================================
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
 d4.set_content("배치스케줄구현")//서브타이틀
-d3.set_img(0,{imgtitle:"배치스케줄 구성",imgurl:"https://drive.google.com/file/d/1Sh8Y0MoggV59J1LyugGAL81ogEbgrip2/view?usp=drive_link",imglog:"배치스케줄 구성 위한 JOB 구현 ",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"배치스케줄 구성2",imgurl:"https://drive.google.com/file/d/115WTE6wAsSpovqFMFbkye9pA8KmJ5Ici/view?usp=drive_link",imglog:"배치스케줄이 적상적으로 작동하며 5분마다 주기적으로 실행",sourceurl:""})//이미지타이틀
+d4.set_img(0,{imgtitle:"배치스케줄 구성",imgurl:"https://drive.google.com/file/d/1Sh8Y0MoggV59J1LyugGAL81ogEbgrip2/view?usp=drive_link",imglog:"배치스케줄 구성 위한 JOB 구현 ",sourceurl:""})//이미지타이틀
+d4.set_img(0,{imgtitle:"배치스케줄 구성2",imgurl:"https://drive.google.com/file/d/115WTE6wAsSpovqFMFbkye9pA8KmJ5Ici/view?usp=drive_link",imglog:"배치스케줄이 적상적으로 작동하며 5분마다 주기적으로 실행",sourceurl:""})//이미지타이틀
 d4.set_content("배치프로그램테스트 구현")//서브타이틀
-d3.set_img(0,{imgtitle:"배치프로그램 테스트",imgurl:"https://drive.google.com/file/d/1RSyuWNPfVFMi1jQ61Cqi19w2Qg2SUf2Q/view?usp=drive_link",imglog:"배치스케줄 정상 작동 확인",sourceurl:""})//이미지타이틀
+d4.set_img(0,{imgtitle:"배치프로그램 테스트",imgurl:"https://drive.google.com/file/d/1RSyuWNPfVFMi1jQ61Cqi19w2Qg2SUf2Q/view?usp=drive_link",imglog:"배치스케줄 정상 작동 확인",sourceurl:""})//이미지타이틀
 
-d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
+d4.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d4)
