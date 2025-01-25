@@ -47,11 +47,21 @@ data_sets.push(d1)
 // menu2 =============================================================
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
-// d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
+d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
+d1.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1qfGcNouQ5508-TLtcoynNcypJnCQnQjk/view?usp=drive_link",imglog:"로그인,로그아웃 함수 분리",sourceurl:""})//이미지타이틀
+d1.set_img(0,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1WbKbrdrupwrokYqnsQz-B7851OaiXW4F/view?usp=drive_link",imglog:"작성된 공통모듈",sourceurl:""})//이미지타이틀
+d1.set_img(0,{imgtitle:"공통모듈 테스트 작성",imgurl:"https://drive.google.com/file/d/1uQbFw4iveprEd-lkxwePkbyLWewB7u88/view?usp=drive_link",imglog:"테스트페이지 작성",sourceurl:""})//이미지타이틀
+d1.set_img(0,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1JZThtiBQIcEaT78fO_7KDqsE1QIInFPG/view?usp=drive_link",imglog:"테스트페이지",sourceurl:""})//이미지타이틀
+d1.set_img(2,{imgtitle:"공통모듈 구현",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"가입한 회원 아이디와 비밀번호 입력",sourceurl:""})//이미지타이틀
+d1.set_img(2,{imgtitle:"로그인/로그아웃",imgurl:"https://drive.google.com/file/d/1lZEcOqUC8Rjj6n8bC_iCSkfzSlHOxK9T/view?usp=drive_link",imglog:"로그인과 로그아웃 테스트 성공",sourceurl:""})//이미지타이틀
 
-// d2.set_content("테스트케이스를 작성합니다.")
+d2.set_content("테스트케이스를 작성합니다.")
+d1.set_img(1,{imgtitle:"테스트케이스 진행",imgurl:"https://drive.google.com/file/d/1tM8LGD_omFpYqNCyi15MhTToRCPuvDmm/view?usp=drive_link",imglog:"테스트케이스 진행",sourceurl:""})//이미지타이틀
 
-// d2.set_content("단위테스트를 작성합니다.")
+d2.set_content("단위테스트를 작성합니다.")
+d1.set_img(2,{imgtitle:"단위테스트",imgurl:"https://drive.google.com/file/d/1hvFh9PlzgpixzYFgIgbpSGddwjUiixYI/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+d1.set_img(2,{imgtitle:"단위테스트 결과",imgurl:"https://drive.google.com/file/d/1jRF3wGfKS_TfoGjz9aFRvHRmr8cO0WWk/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
+
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
@@ -64,7 +74,7 @@ d3.set_img(0,{imgtitle:"회원가입페이지",imgurl:"https://drive.google.com/
 d3.set_img(0,{imgtitle:"회원가입 성공",imgurl:"https://drive.google.com/file/d/15C4yxuZK_ivt2jPbz9_7jqHggZ6b615N/view?usp=drive_link",imglog:"조건 만족 시 회원가입 성공창",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"연동된 컨트롤러 구현",imgurl:"https://drive.google.com/file/d/1KuRZXiL3p_2zeVi0kuyfCckhl2n2vm_C/view?usp=drive_link",imglog:"아이디: 4글자이상,비밀번호: 6글자이상으로 컨트롤러 구현",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입 조건",imgurl:"https://drive.google.com/file/d/1aK6gzl_RHbh4nYGOPVwHEbPopHSv-uvS/view?usp=drive_link",imglog:"회원가입시 조건항목 및 순서",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"서비스로직",imgurl:"https://drive.google.com/file/d/1eyptoWH6XAV76dHyieYkaUAh7OgycZMC/view?usp=drive_link",imglog:"회원가입에 성공한 아이디,비밀번호,이름,나이,주소 데이터베이스 저장 ",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"서비스로직",imgurl:"https://drive.google.com/file/d/1eyptoWH6XAV76dHyieYkaUAh7OgycZMC/view?usp=drive_link",imglog:"회원가입에 성공한 아이디,비밀번호,이름,나이,주소 데이터베이스 저장",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"가입된 회원정보 데이터베이스 저장",imgurl:"https://drive.google.com/file/d/1v6H5IDsoLvo-KVsHJx1kf_g9owPWKa4_/view?usp=drive_link",imglog:"서비스로직에서 유효성 점검",sourceurl:""})//이미지타이틀
 
 d3.set_content("회원로그인구현")//서브타이틀
@@ -84,18 +94,15 @@ d3.set_img(3,{imgtitle:"회원리스트 요청",imgurl:"https://drive.google.com
 d3.set_img(3,{imgtitle:"회원리스트 출력",imgurl:"https://drive.google.com/file/d/1nB9Wtp4rTFhpSpJ05qP1zq6j4DEXxzjZ/view?usp=drive_link",imglog:"",sourceurl:""})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 출력 구현",imgurl:"https://drive.google.com/file/d/1r3AIX0iPMZPJM5mFADHoT39qlipJ9_pW/view?usp=drive_link",imglog:"가입한 회원 정보를 기반으로 회원리스트 데이터 불러오기",sourceurl:""})//이미지타이틀
 
-
-d3.set_content("결과보고서 작성")
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
 // menu4 =============================================================
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
-
 d4.set_content("배치스케줄구현")//서브타이틀
 d3.set_img(0,{imgtitle:"배치스케줄 구성",imgurl:"https://drive.google.com/file/d/1Sh8Y0MoggV59J1LyugGAL81ogEbgrip2/view?usp=drive_link",imglog:"배치스케줄 구성 위한 JOB 구현 ",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"배치스케줄 구성2",imgurl:"https://drive.google.com/file/d/115WTE6wAsSpovqFMFbkye9pA8KmJ5Ici/view?usp=drive_link",imglog:"배치스케줄이 적상적으로 작동하며 5분마다 주기적으로 실행",sourceurl:""})//이미지타이틀
-d4.set_content("배치프로그램테스트 구현")
+d4.set_content("배치프로그램테스트 구현")//서브타이틀
 d3.set_img(0,{imgtitle:"배치프로그램 테스트",imgurl:"https://drive.google.com/file/d/1RSyuWNPfVFMi1jQ61Cqi19w2Qg2SUf2Q/view?usp=drive_link",imglog:"배치스케줄 정상 작동 확인",sourceurl:""})//이미지타이틀
 
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
