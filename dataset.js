@@ -32,10 +32,14 @@ d1.set_img(0,{imgtitle:"요구사항명세",imgurl:"https://drive.google.com/fil
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
 d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/1zp53JGGs1NefJ7Es7dqDek27aE9aCYCX/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/1DWyaMQSngB95aTr9jLr-R0fzMNVuzq277kDQnTksNd0/edit?usp=drive_link"})//이미지타이틀
 d1.set_img(1,{imgtitle:"스프링프레임워크",imgurl:"https://drive.google.com/file/d/1HRUQhj2Tk6AzIW_NSRD59wGUAduJYTmW/view?usp=drive_link",imglog:"오픈소스 스프링프레임워크 v4.221",sourceurl:""})//이미지타이틀
+d1.set_img(1,{imgtitle:"",imgurl:"https://drive.google.com/file/d/1bgiTjl9Zm-10mWJnsltxBrYqrPneWRJc/view?usp=drive_link",imglog:"HTML,CSS,Javascript",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
+d1.set_img(1,{imgtitle:"데이터베이스",imgurl:"https://drive.google.com/file/d/1HoqisLrWINiEjaWwbo2aWpmWKexsSn7K/view?usp=drive_link",imglog:"MariaDB 11.62",sourceurl:""})//이미지타이틀
+d1.set_img(1,{imgtitle:"데이터베이스2",imgurl:"https://drive.google.com/file/d/1o4s2AEfW-lYgGOVDiQlC_Av3ZPBo40HB/view?usp=drive_link",imglog:"HeidiSQL 12.8.0",sourceurl:""})//이미지타이틀
 
 
 d1.set_content("코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다.")
 d1.set_img(2,{imgtitle:"개발환경 구축 명세",imgurl:"https://drive.google.com/file/d/1koIac-TFQsZgQZwCrprSCnji_mzrpa6C/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1OEOPP45fRHMbZvr_RUjUYNZZvK9UE7YdYKUBxUEiOf8/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(2,{imgtitle:"개발도구모음",imgurl:"https://drive.google.com/file/d/1TZcHGraxxMNA1j-voQLekiHIFXmvn5BU/view?usp=drive_link",imglog:"효율성을 위해 개발도구들을 모아둠",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"개발도구 Spring Tool Suite 4 Eclipse",imgurl:"https://drive.google.com/file/d/1WYvIeyOEu8ng107VWvFBpA6R6CltkpN6/view?usp=drive_link",imglog:"자바 스프링 서버단 개발을 위한 도구",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"개발도구 Visual Studio Code",imgurl:"https://drive.google.com/file/d/1Ciyo6sp-F-8_BATb9RaIVRQoVt2VSyXy/view?usp=drive_link",imglog:"웹페이지 디자인 및 개발을 위한 도구",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"텍스트도구 JUnit",imgurl:"https://drive.google.com/file/d/1GDIlZ5MGgt-r3YUYmqwEZpsC_AUn9DBv/view?usp=drive_link",imglog:"자바 프로그래밍 언어용 단위 테스트 프레임워크",sourceurl:""})//이미지타이틀
@@ -87,11 +91,12 @@ d3.set_img(0,{imgtitle:"가입된 회원정보 데이터베이스 저장",imgurl
 
 d3.set_content("회원로그인구현")//서브타이틀
 d3.set_img(1,{imgtitle:"회원로그인 구현",imgurl:"https://drive.google.com/file/d/1LJbuAhlg_GAO9-wBrDVUlOclC9n_aaEJ/view?usp=drive_link",imglog:"가입한 로그인 정보 입력",sourceurl:""})//이미지타이틀
-d3.set_img(1,{imgtitle:"로그인 성공",imgurl:"https://drive.google.com/file/d/1erLHX1AclRc3g8mc0mXXTGaSySPZlTim/view?usp=drive_link",imglog:"데이터베이스에 저장된 회원 아이디,비밀번호로 로그인 성공",sourceurl:""})//이미지타이틀
-d3.set_img(1,{imgtitle:"로그인 실패",imgurl:"https://drive.google.com/file/d/1-ohMvCTjRxgzaG-OvDQJlxTvHf1RyQAR/view?usp=drive_link",imglog:"데이터베이스에 저장된 회원 아이디,비밀번호가 틀릴 시 로그인 실패",sourceurl:""})//이미지타이틀
+d2.set_img(0,{imgtitle:"입력한 회원정보 송신",imgurl:"https://drive.google.com/file/d/1O5lsG3G6u6o_vuROqnUwxaMhcobDepcb/view?usp=drive_link",imglog:"로그인을 위한 아이디,비밀번호 서버로 송신",sourceurl:""})//이미지타이틀
+d3.set_img(1,{imgtitle:"전송된 로그인 정보 수신",imgurl:"https://drive.google.com/file/d/1ZybbMIuk65c72rF2F4lhp7iiTi-nhwix/view?usp=drive_link",imglog:"로그인 정보를 수신하여 처리",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
 d3.set_img(1,{imgtitle:"DAO 구현",imgurl:"https://drive.google.com/file/d/1COvOZOh5h28abxcFT3tKYdIX0WIIT5Nl/view?usp=drive_link",imglog:"로그인 시 아이디,비밀번호 확인",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAO.java"})//이미지타이틀
 d3.set_img(1,{imgtitle:"맵퍼 XML 구현",imgurl:"https://drive.google.com/file/d/1QcoNaqZxukjumWbzp-LxPCr2O6Q7Ojkz/view?usp=drive_link",imglog:"로그인을 위한 mapper XML 구현",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
-d3.set_img(1,{imgtitle:"로그인 시스템",imgurl:"https://drive.google.com/file/d/1ZybbMIuk65c72rF2F4lhp7iiTi-nhwix/view?usp=drive_link",imglog:"로그인을 위한 컨트롤러 구현",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(1,{imgtitle:"로그인 성공",imgurl:"https://drive.google.com/file/d/1erLHX1AclRc3g8mc0mXXTGaSySPZlTim/view?usp=drive_link",imglog:"데이터베이스에 저장된 회원 아이디,비밀번호로 로그인 성공",sourceurl:""})//이미지타이틀
+d3.set_img(1,{imgtitle:"로그인 실패",imgurl:"https://drive.google.com/file/d/1-ohMvCTjRxgzaG-OvDQJlxTvHf1RyQAR/view?usp=drive_link",imglog:"데이터베이스에 저장된 회원 아이디,비밀번호가 틀릴 시 로그인 실패",sourceurl:""})//이미지타이틀
 
 d3.set_content("회원로그아웃구현")//서브타이틀
 d3.set_img(2,{imgtitle:"로그아웃",imgurl:"https://drive.google.com/file/d/1fTFBEfaA6zt-bUvGCI84_A01gEjjmhGo/view?usp=drive_link",imglog:"로그아웃 버튼 구현",sourceurl:""})//이미지타이틀
