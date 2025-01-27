@@ -35,11 +35,14 @@ d1.set_img(1,{imgtitle:"스프링프레임워크",imgurl:"https://drive.google.c
 
 
 d1.set_content("코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다.")
-d1.set_img(2,{imgtitle:"개발환경 구축 명세",imgurl:"https://drive.google.com/file/d/1K-ERdjvSjSf3WFwCkrGWkyVYPS8srQ_z/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1OEOPP45fRHMbZvr_RUjUYNZZvK9UE7YdYKUBxUEiOf8/edit?usp=drive_link"})//이미지타이틀
-d1.set_img(2,{imgtitle:"개발도구 Spring for Eclipse",imgurl:"https://drive.google.com/file/d/1WYvIeyOEu8ng107VWvFBpA6R6CltkpN6/view?usp=drive_link",imglog:"자바 스프링 서버단 개발을 위한 도구",sourceurl:""})//이미지타이틀
+d1.set_img(2,{imgtitle:"개발환경 구축 명세",imgurl:"https://drive.google.com/file/d/1koIac-TFQsZgQZwCrprSCnji_mzrpa6C/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1OEOPP45fRHMbZvr_RUjUYNZZvK9UE7YdYKUBxUEiOf8/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(2,{imgtitle:"개발도구 Spring Tool Suite 4 Eclipse",imgurl:"https://drive.google.com/file/d/1WYvIeyOEu8ng107VWvFBpA6R6CltkpN6/view?usp=drive_link",imglog:"자바 스프링 서버단 개발을 위한 도구",sourceurl:""})//이미지타이틀
+d1.set_img(2,{imgtitle:"개발도구 Visual Studio Code",imgurl:"https://drive.google.com/file/d/1Ciyo6sp-F-8_BATb9RaIVRQoVt2VSyXy/view?usp=drive_link",imglog:"웹페이지 디자인 및 개발을 위한 도구",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"텍스트도구 JUnit",imgurl:"https://drive.google.com/file/d/1GDIlZ5MGgt-r3YUYmqwEZpsC_AUn9DBv/view?usp=drive_link",imglog:"자바 프로그래밍 언어용 단위 테스트 프레임워크",sourceurl:""})//이미지타이틀
+d1.set_img(2,{imgtitle:"텍스트도구 Postman",imgurl:"https://drive.google.com/file/d/1xkMUwN90sBfKqqTX3CQTW3XL2MhDJnvg/view?usp=drive_link",imglog:"개발 및 테스트를 위한 협업 플랫폼,",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"빌드도구 Gradle",imgurl:"https://drive.google.com/file/d/1q5KiWOXZ6tPBHiK-sLli_4xoHAI9WFFG/view?usp=drive_link",imglog:"프로그램 빌드 및 외부 라이브러리 디펜더시를 위한 도구",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"형상관리도구 Git",imgurl:"https://drive.google.com/file/d/1rqm-ylChdJXjG7zG6XbZMk1i6mh2lJjU/view?usp=drive_link",imglog:"프로그램의 전반적인 개발협업 및 버전관를 위한 도구",sourceurl:""})//이미지타이틀
+d1.set_img(2,{imgtitle:"데이터베이스도구 MariaDB",imgurl:"https://drive.google.com/file/d/1aXZaid8PvPPoU0gmO3wedxyfllROwtqL/view?usp=drive_link",imglog:"데이터 저장 및 관리를 위한 도구",sourceurl:""})//이미지타이틀
 
 d1.set_fill("서버의 보안성과 각 수행기능별 패턴을 분리하기 위해 Spring WAS 와 사용자 View 기능을 위해 웹브라우져에서 일반적인 작동이 가능한 HTML5 를 구현하며 데이터베이스 연동 대신 파일로 회원목록 저장")//사용자 에필로그
 data_sets.push(d1)
