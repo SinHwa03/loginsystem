@@ -73,9 +73,12 @@ let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
 d3.set_img(0,{imgtitle:"메인화면",imgurl:"https://drive.google.com/file/d/1SB34bbM0QuCRBo-_3iAM1Io_4L-N_t13/view?usp=drive_link",imglog:"메인페이지에서 회원가입 버튼 구현",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입페이지",imgurl:"https://drive.google.com/file/d/1Le-gaKI875jLSVaPUkFPLNr6d3fJwWIl/view?usp=drive_link",imglog:"회원가입을 위한 회원정보 입력",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"회원가입 성공",imgurl:"https://drive.google.com/file/d/15C4yxuZK_ivt2jPbz9_7jqHggZ6b615N/view?usp=drive_link",imglog:"조건 만족시 회원가입 성공창",sourceurl:""})//이미지타이틀
-d3.set_img(0,{imgtitle:"연동된 컨트롤러 구현",imgurl:"https://drive.google.com/file/d/1KuRZXiL3p_2zeVi0kuyfCckhl2n2vm_C/view?usp=drive_link",imglog:"아이디: 4글자이상,비밀번호: 6글자이상으로 컨트롤러 구현",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"데이터 송신",imgurl:"https://drive.google.com/file/d/1ALm1vDUcqlFoatvmd764yuzgbyZkC1N7/view?usp=drive_link",imglog:"회원이 입력한 데이터를 서버측에 송신",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/resources/static/newpage.html"})//이미지타이틀
+d3.set_img(0,{imgtitle:"데이터 수신",imgurl:"https://drive.google.com/file/d/1KuRZXiL3p_2zeVi0kuyfCckhl2n2vm_C/view?usp=drive_link",imglog:"아이디: 4글자이상,비밀번호: 6글자이상으로 컨트롤러 구현하여 회원이 입력한 데이터를 서버세엇 수신",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
 d3.set_img(0,{imgtitle:"회원가입 조건",imgurl:"https://drive.google.com/file/d/1aK6gzl_RHbh4nYGOPVwHEbPopHSv-uvS/view?usp=drive_link",imglog:"회원가입시 조건 항목 및 순서",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dto/MemberDTO.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"DAO 접근",imgurl:"https://drive.google.com/file/d/1COvOZOh5h28abxcFT3tKYdIX0WIIT5Nl/view?usp=drive_link",imglog:"회원가입시 DAO 객체를 이용하여 데이터베이스에 접근",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAO.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"맵퍼 XML 구현",imgurl:"https://drive.google.com/file/d/1QcoNaqZxukjumWbzp-LxPCr2O6Q7Ojkz/view?usp=drive_link",imglog:"회원가입을 위한 mapper XML 구현",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 성공",imgurl:"https://drive.google.com/file/d/15C4yxuZK_ivt2jPbz9_7jqHggZ6b615N/view?usp=drive_link",imglog:"조건 만족시 회원가입 성공 메세지 출력",sourceurl:""})//이미지타이틀
 d3.set_img(0,{imgtitle:"서비스로직",imgurl:"https://drive.google.com/file/d/1eyptoWH6XAV76dHyieYkaUAh7OgycZMC/view?usp=drive_link",imglog:"회원가입에 성공한 아이디,비밀번호,이름,나이,주소 데이터베이스 저장",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberService.java"})//이미지타이틀
 d3.set_img(0,{imgtitle:"가입된 회원정보 데이터베이스 저장",imgurl:"https://drive.google.com/file/d/1v6H5IDsoLvo-KVsHJx1kf_g9owPWKa4_/view?usp=drive_link",imglog:"서비스로직에서 유효성 점검",sourceurl:""})//이미지타이틀
 
@@ -83,6 +86,8 @@ d3.set_content("회원로그인구현")//서브타이틀
 d3.set_img(1,{imgtitle:"회원로그인 구현",imgurl:"https://drive.google.com/file/d/1LJbuAhlg_GAO9-wBrDVUlOclC9n_aaEJ/view?usp=drive_link",imglog:"가입한 로그인 정보 입력",sourceurl:""})//이미지타이틀
 d3.set_img(1,{imgtitle:"로그인 성공",imgurl:"https://drive.google.com/file/d/1erLHX1AclRc3g8mc0mXXTGaSySPZlTim/view?usp=drive_link",imglog:"데이터베이스에 저장된 회원 아이디,비밀번호로 로그인 성공",sourceurl:""})//이미지타이틀
 d3.set_img(1,{imgtitle:"로그인 실패",imgurl:"https://drive.google.com/file/d/1-ohMvCTjRxgzaG-OvDQJlxTvHf1RyQAR/view?usp=drive_link",imglog:"데이터베이스에 저장된 회원 아이디,비밀번호가 틀릴 시 로그인 실패",sourceurl:""})//이미지타이틀
+d3.set_img(1,{imgtitle:"DAO 구현",imgurl:"https://drive.google.com/file/d/1COvOZOh5h28abxcFT3tKYdIX0WIIT5Nl/view?usp=drive_link",imglog:"로그인 시 아이디,비밀번호 확인",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAO.java"})//이미지타이틀
+d3.set_img(1,{imgtitle:"맵퍼 XML 구현",imgurl:"https://drive.google.com/file/d/1QcoNaqZxukjumWbzp-LxPCr2O6Q7Ojkz/view?usp=drive_link",imglog:"로그인을 위한 mapper XML 구현",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
 d3.set_img(1,{imgtitle:"로그인 시스템",imgurl:"https://drive.google.com/file/d/1ZybbMIuk65c72rF2F4lhp7iiTi-nhwix/view?usp=drive_link",imglog:"로그인을 위한 컨트롤러 구현",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
 
 d3.set_content("회원로그아웃구현")//서브타이틀
@@ -94,6 +99,8 @@ d3.set_content("회원리스트연동")//서브타이틀
 d3.set_img(3,{imgtitle:"회원리스트",imgurl:"https://drive.google.com/file/d/1Sh8Y0MoggV59J1LyugGAL81ogEbgrip2/view?usp=drive_link",imglog:"회원리스트보기 버튼 구현",sourceurl:""})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 요청",imgurl:"https://drive.google.com/file/d/1iO4GOqxK_GOO44TQ8E_IlTFUrZdekhOZ/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 출력",imgurl:"https://drive.google.com/file/d/1nB9Wtp4rTFhpSpJ05qP1zq6j4DEXxzjZ/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/resources/static/index.html"})//이미지타이틀
+d3.set_img(3,{imgtitle:"DAO 구현",imgurl:"https://drive.google.com/file/d/1COvOZOh5h28abxcFT3tKYdIX0WIIT5Nl/view?usp=drive_link",imglog:"회원리스트 조회시 리스트 출력",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAO.java"})//이미지타이틀
+d3.set_img(3,{imgtitle:"맵퍼 XML 구현",imgurl:"https://drive.google.com/file/d/1QcoNaqZxukjumWbzp-LxPCr2O6Q7Ojkz/view?usp=drive_link",imglog:"로그인을 위한 mapper XML 구현",sourceurl:"https://github.com/SinHwa03/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
 d3.set_img(3,{imgtitle:"회원리스트 출력 구현",imgurl:"https://drive.google.com/file/d/1r3AIX0iPMZPJM5mFADHoT39qlipJ9_pW/view?usp=drive_link",imglog:"가입한 회원 정보를 기반으로 회원리스트 데이터 불러오기",sourceurl:""})//이미지타이틀
 
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
